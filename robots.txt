@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://reaperreaper97-create.github.io/androidappspot/sitemap.xml

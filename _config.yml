@@ -1,0 +1,29 @@
+title: "Android Apps Spot"
+tagline: "Install Guides & Reviews for US Android Users"
+description: "Independent reviews and step-by-step install guides for popular Android apps in the US. Side-loading APKs, alternative app stores, and compatibility tips."
+url: "https://reaperreaper97-create.github.io"
+baseurl: "/androidappspot"
+lang: en-US
+author:
+  name: "Android Apps Spot"
+  email: "reaper.reaper97@gmail.com"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+markdown: kramdown
+permalink: /:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
